@@ -13,7 +13,7 @@
 
 # 📖 Overview
 
-FedSecure-IoT IDS is a privacy-preserving Intrusion Detection System (IDS) designed for modern Internet of Things (IoT) environments.
+FedSecure_IoTis a privacy-preserving Intrusion Detection System (IDS) designed for modern Internet of Things (IoT) environments.
 
 The project combines Deep Learning, Federated Learning, and Homomorphic Encryption to detect malicious network traffic while ensuring sensitive device data remains private.
 
@@ -58,7 +58,7 @@ There is a growing need for intelligent intrusion detection systems that preserv
 
 # 💡 Proposed Solution
 
-FedSecure-IoT IDS addresses these challenges by integrating three advanced technologies:
+FedSecure_IoT addresses these challenges by integrating three advanced technologies:
 
 - 🧠 Hybrid CNN–LSTM–DNN for intrusion detection
 - 🌐 Federated Learning (FedAvg) for decentralized model training
@@ -101,7 +101,7 @@ The intrusion detection engine is based on a Hybrid CNN–LSTM–DNN architectur
 # 📂 Project Structure
 
 ```
-FedSecure-IoT/
+FedSecure_IoT/
 │
 ├── data/              # Dataset
 ├── models/            # Hybrid CNN-LSTM-DNN model
@@ -118,8 +118,8 @@ FedSecure-IoT/
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/NitinRajvanshi/FedSecure_IoT-IDS.git
-cd FedSecure_IoT-IDS
+git clone https://github.com/NitinRajvanshi/FedSecure_IoT.git
+cd FedSecure_IoT
 ```
 
 ## 2. Create a Virtual Environment (Recommended)
