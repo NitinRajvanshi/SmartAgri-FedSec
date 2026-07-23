@@ -1,0 +1,4 @@
+method,accuracy,precision_weighted,recall_weighted,f1_weighted,report_path
+Centralized,0.9922,0.9923,0.9922,0.9922,E:\smartagri_fedsec_project_alt\results\centralized_report.txt
+FL,0.9752,0.9757,0.9752,0.9752,E:\smartagri_fedsec_project_alt\results\federated_report.txt
+FL+HE,0.402,0.3938,0.402,0.3903,E:\smartagri_fedsec_project_alt\results\federated_he_report.txt
