@@ -94,3 +94,114 @@ The intrusion detection engine is based on a Hybrid CNN–LSTM–DNN architectur
 | Federated Learning | Custom FedAvg Implementation |
 | Homomorphic Encryption | Paillier (phe) |
 | Dataset | IoT Network Traffic Dataset |
+
+# 📂 Project Structure
+
+```
+FedSecure-IoT/
+│
+├── data/              # Dataset
+├── models/            # Hybrid CNN-LSTM-DNN model
+├── scripts/           # Training and evaluation scripts
+├── results/           # Reports and graphs
+├── he/                # Homomorphic encryption utilities
+├── config.py          # Project configuration
+├── requirements.txt   # Dependencies
+└── README.md
+```
+# 🚀 Installation
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/NitinRajvanshi/FedSecure_IoT-IDS.git
+cd FedSecure_IoT-IDS
+```
+
+## 2. Create a Virtual Environment (Recommended)
+
+### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### Linux / macOS
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+## 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+# ▶ Usage
+
+## Run Centralized Training
+
+```bash
+python scripts/train_centralized.py
+```
+
+This trains the Hybrid CNN–LSTM–DNN model using centralized learning and generates a classification report.
+
+---
+
+## Run Federated Learning with Homomorphic Encryption
+
+```bash
+python scripts/train_federated_he.py
+```
+
+This simulates multiple federated clients, encrypts model parameters using Paillier Homomorphic Encryption, performs secure model aggregation, and evaluates the global model.
+
+# ⚙ Configuration
+
+Project settings can be modified in:
+
+```text
+config.py
+```
+
+Some configurable parameters include:
+
+- Number of federated clients
+- Number of communication rounds
+- Local training epochs
+- Learning rate
+- Batch size
+- Enable / Disable Homomorphic Encryption
+
+  # 📊 Results
+
+The project evaluates both centralized and federated learning approaches using standard machine learning metrics.
+
+Generated outputs include:
+
+- Classification Reports
+- Accuracy Comparison
+- F1-Score Comparison
+- Training Metrics
+- Performance Visualizations
+
+All generated reports and figures are stored inside the `results/` directory.
+
+# 👨‍💻 Author
+
+**Nitin Kumar Rajvanshi**
+
+- GitHub: https://github.com/NitinRajvanshi
+- LinkedIn: https://www.linkedin.com/in/nitinkumarrajvanshi
+
+  # 📜 License
+
+This project is licensed under the MIT License.
+
+See the `LICENSE` file for more details.
+
+
