@@ -70,3 +70,27 @@ Only encrypted model parameters are shared with the federated server.
 
 The server aggregates encrypted parameters without accessing raw client data, producing an improved global intrusion detection model while preserving user privacy.
 The intrusion detection engine is based on a Hybrid CNN–LSTM–DNN architecture capable of learning complex spatial and temporal patterns from network traffic to accurately classify normal and malicious behavior.
+
+# ✨ Features
+
+- Hybrid CNN–LSTM–DNN based intrusion detection model
+- Federated Learning using the Federated Averaging (FedAvg) algorithm
+- Privacy-preserving model aggregation using Paillier Homomorphic Encryption
+- Supports both centralized and federated training workflows
+- Configurable number of clients, communication rounds, and local epochs
+- Performance evaluation using standard classification metrics
+- Visualization of training performance and comparison results
+- Modular Python implementation for easy experimentation and extension
+
+  # 🛠 Technology Stack
+
+| Category | Technologies |
+|-----------|--------------|
+| Programming Language | Python |
+| Deep Learning | PyTorch |
+| Machine Learning | Scikit-learn |
+| Data Processing | NumPy, Pandas |
+| Visualization | Matplotlib |
+| Federated Learning | Custom FedAvg Implementation |
+| Homomorphic Encryption | Paillier (phe) |
+| Dataset | IoT Network Traffic Dataset |
