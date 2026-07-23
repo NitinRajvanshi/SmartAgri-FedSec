@@ -1,58 +1,32 @@
-# 🛡️ SmartAgri-FedSec
-### Privacy-Preserving Intrusion Detection System for Smart Agriculture using Hybrid Deep Learning, Federated Learning, and Homomorphic Encryption
+# 🛡️ FedSecure-IoT IDS
+
+### Privacy-Preserving Intrusion Detection System for IoT Networks using Hybrid Deep Learning, Federated Learning, and Homomorphic Encryption
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red)
 ![Federated Learning](https://img.shields.io/badge/Federated-Learning-success)
-![Homomorphic Encryption](https://img.shields.io/badge/Homomorphic-Paillier-orange)
+![Homomorphic Encryption](https://img.shields.io/badge/Paillier-Encryption-orange)
+![IoT Security](https://img.shields.io/badge/IoT-Cybersecurity-blueviolet)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
-## 📖 Project Overview
+# 📖 Overview
 
-SmartAgri-FedSec is a privacy-preserving Intrusion Detection System (IDS) designed for Smart Agriculture Internet of Things (IoT) environments.
+FedSecure-IoT IDS is a privacy-preserving Intrusion Detection System (IDS) designed for modern Internet of Things (IoT) environments.
 
-The project combines modern Artificial Intelligence and Privacy-Preserving Machine Learning techniques to detect malicious network traffic while ensuring that sensitive agricultural data never leaves local devices.
+The project combines Deep Learning, Federated Learning, and Homomorphic Encryption to detect malicious network traffic while ensuring sensitive device data remains private.
 
-Unlike traditional centralized machine learning approaches, SmartAgri-FedSec uses **Federated Learning (FL)** to train models across multiple simulated agricultural clients without sharing raw data. To further strengthen privacy, the project integrates **Paillier Homomorphic Encryption (HE)**, enabling encrypted model aggregation during federated learning.
+Instead of collecting data from every IoT device on a central server, the system enables distributed model training across multiple clients using Federated Learning. During model aggregation, Paillier Homomorphic Encryption protects model updates, allowing secure collaborative learning without exposing private information.
 
-The intrusion detection model is based on a **Hybrid CNN–LSTM–DNN architecture**, allowing it to capture spatial patterns, sequential dependencies, and complex decision boundaries in IoT network traffic.
+The proposed framework is suitable for various IoT ecosystems including:
 
----
+- Smart Homes
+- Smart Cities
+- Industrial IoT (IIoT)
+- Healthcare IoT
+- Connected Vehicles
+- Smart Agriculture
+- Critical Infrastructure
 
-## 🎯 Problem Statement
-
-Modern smart agriculture relies heavily on IoT devices such as:
-
-- 🌱 Soil moisture sensors
-- 🌡 Temperature sensors
-- 💧 Smart irrigation systems
-- 📷 Smart surveillance cameras
-- 🚜 Autonomous farming equipment
-
-These connected devices continuously exchange data across the network.
-
-Unfortunately, they are vulnerable to cyber attacks such as:
-
-- Distributed Denial of Service (DDoS)
-- Malware Infections
-- Botnet Attacks
-- Unauthorized Access
-- Network Intrusions
-
-Traditional intrusion detection systems require collecting all data on a centralized server, creating significant privacy risks and communication overhead.
-
-SmartAgri-FedSec addresses this challenge by enabling collaborative model training without exposing sensitive agricultural data.
-
----
-
-## 💡 Proposed Solution
-
-This project integrates three modern technologies into a single intelligent security framework:
-
-- 🧠 Hybrid CNN–LSTM–DNN Deep Learning Model
-- 🌐 Federated Learning (FedAvg)
-- 🔒 Paillier Homomorphic Encryption
-
-The overall workflow enables multiple agricultural clients to collaboratively train a global intrusion detection model while preserving data privacy throughout the training process.
+The intrusion detection engine is based on a Hybrid CNN–LSTM–DNN architecture capable of learning complex spatial and temporal patterns from network traffic to accurately classify normal and malicious behavior.
