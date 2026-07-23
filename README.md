@@ -13,7 +13,7 @@
 
 # 📖 Overview
 
-FedSecure_IoTis a privacy-preserving Intrusion Detection System (IDS) designed for modern Internet of Things (IoT) environments.
+FedSecure_IoT is a privacy-preserving Intrusion Detection System (IDS) designed for modern Internet of Things (IoT) environments.
 
 The project combines Deep Learning, Federated Learning, and Homomorphic Encryption to detect malicious network traffic while ensuring sensitive device data remains private.
 
