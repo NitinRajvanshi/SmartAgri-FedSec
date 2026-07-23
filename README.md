@@ -29,4 +29,44 @@ The proposed framework is suitable for various IoT ecosystems including:
 - Smart Agriculture
 - Critical Infrastructure
 
+
+
+# 🎯 Problem Statement
+
+Modern IoT ecosystems consist of thousands of interconnected devices continuously exchanging data across distributed networks.
+
+These environments are increasingly targeted by cyber threats including:
+
+- Distributed Denial of Service (DDoS)
+- Botnet Attacks
+- Malware
+- Unauthorized Access
+- Network Intrusions
+- Device Compromise
+
+Traditional machine learning solutions require collecting all training data on a centralized server. While effective, this approach introduces several challenges:
+
+- Privacy concerns
+- Regulatory compliance issues
+- High communication costs
+- Single point of failure
+- Risk of sensitive data exposure
+
+There is a growing need for intelligent intrusion detection systems that preserve privacy while maintaining high detection performance.
+
+
+
+# 💡 Proposed Solution
+
+FedSecure-IoT IDS addresses these challenges by integrating three advanced technologies:
+
+- 🧠 Hybrid CNN–LSTM–DNN for intrusion detection
+- 🌐 Federated Learning (FedAvg) for decentralized model training
+- 🔒 Paillier Homomorphic Encryption for secure model aggregation
+
+Each IoT client trains its local model using private network traffic.
+
+Only encrypted model parameters are shared with the federated server.
+
+The server aggregates encrypted parameters without accessing raw client data, producing an improved global intrusion detection model while preserving user privacy.
 The intrusion detection engine is based on a Hybrid CNN–LSTM–DNN architecture capable of learning complex spatial and temporal patterns from network traffic to accurately classify normal and malicious behavior.
