@@ -1,4 +1,4 @@
-# 🛡️ FedSecure-IoT IDS
+# 🛡️ FedSecure-IoT 
 
 ### Privacy-Preserving Intrusion Detection System for IoT Networks using Hybrid Deep Learning, Federated Learning, and Homomorphic Encryption
 
@@ -71,6 +71,7 @@ Only encrypted model parameters are shared with the federated server.
 The server aggregates encrypted parameters without accessing raw client data, producing an improved global intrusion detection model while preserving user privacy.
 The intrusion detection engine is based on a Hybrid CNN–LSTM–DNN architecture capable of learning complex spatial and temporal patterns from network traffic to accurately classify normal and malicious behavior.
 
+
 # ✨ Features
 
 - Hybrid CNN–LSTM–DNN based intrusion detection model
@@ -82,7 +83,8 @@ The intrusion detection engine is based on a Hybrid CNN–LSTM–DNN architectur
 - Visualization of training performance and comparison results
 - Modular Python implementation for easy experimentation and extension
 
-  # 🛠 Technology Stack
+
+   # 🛠 Technology Stack
 
 | Category | Technologies |
 |-----------|--------------|
@@ -94,6 +96,7 @@ The intrusion detection engine is based on a Hybrid CNN–LSTM–DNN architectur
 | Federated Learning | Custom FedAvg Implementation |
 | Homomorphic Encryption | Paillier (phe) |
 | Dataset | IoT Network Traffic Dataset |
+
 
 # 📂 Project Structure
 
@@ -109,6 +112,7 @@ FedSecure-IoT/
 ├── requirements.txt   # Dependencies
 └── README.md
 ```
+
 # 🚀 Installation
 
 ## 1. Clone the Repository
@@ -177,6 +181,7 @@ Some configurable parameters include:
 - Batch size
 - Enable / Disable Homomorphic Encryption
 
+
   # 📊 Results
 
 The project evaluates both centralized and federated learning approaches using standard machine learning metrics.
@@ -190,6 +195,7 @@ Generated outputs include:
 - Performance Visualizations
 
 All generated reports and figures are stored inside the `results/` directory.
+
 
 # 👨‍💻 Author
 
